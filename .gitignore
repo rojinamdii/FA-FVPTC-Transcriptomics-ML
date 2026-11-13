@@ -1,0 +1,40 @@
+
+# R and RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Renviron
+
+# Keep renv.lock, .Rprofile and renv/activate.R
+
+# renv local libraries
+renv/library/
+renv/staging/
+renv/local/
+renv/cellar/
+
+# Raw datasets
+/data/raw/
+*.CEL
+*.cel
+*.CEL.gz
+
+# Generated datasets
+/final_data.csv
+/final_data_clean.csv
+/final_data_clean.rds
+/DEGS.txt
+/FVPTC-FA.up.txt
+/FVPTC-FA.down.txt
+
+# Machine learning outputs
+/ml-output/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Operating system
+.DS_Store
+Thumbs.db
